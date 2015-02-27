@@ -1,24 +1,29 @@
 {
-    "version": "1.0.0-*",
-    "dependencies": {
-        "EntityFramework": "7.0.0-*",
-        "Microsoft.Framework.CodeGeneration.Common": { "version": "1.0.0-*", "type": "build" },
-        "Microsoft.Framework.CodeGeneration.Core": "1.0.0-*",
-        "Microsoft.Framework.CodeGeneration.Templating": "1.0.0-*",
-        "Microsoft.Framework.Runtime.Interfaces": { "version": "1.0.0-*", "type": "build" }
+  "version": "1.0.0-beta3",
+  "dependencies": {
+    "EntityFramework": "7.0.0-beta3",
+    "Microsoft.Framework.CodeGeneration.Common": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     },
-
-    "frameworks" : {
-        "aspnet50" : { 
-            "frameworkAssemblies": {
-                "System.Text.Encoding": ""
-            }
-        },
-        "aspnetcore50" : { 
-            "dependencies": {
-                "System.Runtime": "4.0.20-beta-*",
-                "System.Text.Encoding": "4.0.10-beta-*"
-            }
-        }
+    "Microsoft.Framework.CodeGeneration.Core": "1.0.0-beta3",
+    "Microsoft.Framework.CodeGeneration.Templating": "1.0.0-beta3",
+    "Microsoft.Framework.Runtime.Interfaces": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     }
+  },
+  "frameworks": {
+    "aspnet50": {
+      "frameworkAssemblies": {
+        "System.Text.Encoding": ""
+      }
+    },
+    "aspnetcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.20-beta-22605",
+        "System.Text.Encoding": "4.0.10-beta-22605"
+      }
+    }
+  }
 }

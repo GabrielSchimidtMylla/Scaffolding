@@ -1,18 +1,20 @@
 {
-    "version": "1.0.0-*",
-    "dependencies": {
-        "Microsoft.Framework.CodeGeneration.Common": { "version": "1.0.0-*", "type": "build" },
-        "Microsoft.AspNet.Razor": "4.0.0-*",
-        "Microsoft.Framework.Runtime.Roslyn": "1.0.0-*"
+  "version": "1.0.0-beta3",
+  "dependencies": {
+    "Microsoft.Framework.CodeGeneration.Common": {
+      "version": "1.0.0-beta3",
+      "type": "build"
     },
-
-    "frameworks": {
-        "aspnet50": { },
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Dynamic.Runtime": "4.0.0-beta-*",
-                "System.Reflection.TypeExtensions": "4.0.0-beta-*"
-            }
-        }
+    "Microsoft.AspNet.Razor": "4.0.0-beta3",
+    "Microsoft.Framework.Runtime.Roslyn": "1.0.0-beta3"
+  },
+  "frameworks": {
+    "aspnet50": {},
+    "aspnetcore50": {
+      "dependencies": {
+        "System.Dynamic.Runtime": "4.0.0-beta-22605",
+        "System.Reflection.TypeExtensions": "4.0.0-beta-22605"
+      }
     }
+  }
 }
